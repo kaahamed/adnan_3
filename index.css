@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+.header{
+    background:#1B77CC;
+    height: 100px;
+    display: flex;
+    text-emphasis-color: white;
+}
+
+
+
+.logo{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 425%;
+    color: white;
+    width: 15%;
+}
+.search{
+    width: 30%;
+    padding-top: 20px;
+}
+.search_into {
+    height: 30px;
+    width: 80%;
+    border: 5px solid white;
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px;
+    
+}
+.deep{
+    padding: 1px;
+    font-size: 150%;
+}
+.nav{
+
+    width: 40%;
+}
+.image{
+    width: 15%;
+}
+.menu {
+    display: flex;
+    margin-top: 30px;
+}
+
+.menu li{
+    width: 25%;
+    font-size: 150%;
+    list-style: none;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+.image img{
+    padding: 20px;
+    border-radius: 50%;
+}
+/* header end */
+
+.account {
+    height: 300px;
+    display: flex;
+}
+.acc{
+    width: calc(100% / 3);
+    border-radius: 25px;
+    
+    padding: 10px; 
+    width: 300px;
+    height: 150px; 
+    margin: 65px;
+}
+.cash{
+    background: #1B77CC;
+    
+}
+.due{
+    background: #F2BF46;
+}
+.total{
+    background: #1B77CC;
+}
+.acc h1 {
+    padding-left: 20px;
+    color: white;
+}
+.item {
+    margin-left: 70px;
+    font-size: 400%;
+    color: white;
+}
+/*end account show bar*/
+
+.table{
+    height: 150px;
+    
+    width: 100%;
+    margin: 66px;
+}
+.table_bar2 {
+    height: 50px;
+    background-color: grey;
+    margin-right: 65px;
+}
+/* bar end */
